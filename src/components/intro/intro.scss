@@ -1,6 +1,7 @@
 .intro{
-    background-color: white;
+    background-color:lightgrey;
     display: flex;
+    padding-top: 50px;
 
     .left{
         flex: 0.5;
@@ -50,7 +51,7 @@
 
                 span{
                     font-size :inherit;
-                    color: lightblue;
+                    color: rgb(55, 144, 216);
                 }
             }
         }
