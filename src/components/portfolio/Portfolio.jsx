@@ -5,7 +5,7 @@ import { dataScienceCertifications, otherCertifications, languagesCertifications
 
 
 export default function Certificates() {
-    const [selected,setSelected] = useState("languages");
+    const [selected,setSelected] = useState("dataScience");
     const [data,setData] = useState([]);
     const list = [
         {
@@ -34,7 +34,7 @@ export default function Certificates() {
                 setData(otherCertifications);
                 break;
             default:
-                setData(languagesCertifications);
+                setData(dataScienceCertifications);
 
         }
     },[selected])

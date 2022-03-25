@@ -2,13 +2,14 @@
 
 .portfolio{
     padding: 10px 10px;
-    background-color: rgb(210, 216, 122);
+    background-color: lightyellow;
     display: flex;
     flex-direction: column;
     align-items: center;
     
     h1 {
         font-size:50px;
+        padding: 20px 20px;
     }
 
     ul{
@@ -32,7 +33,7 @@
             height: 280px;
             border-radius:20px;
             border: 1px solid lightgrey;
-            margin: 10px 20px;
+            margin: 20px 20px;
             display:flex;
             align-items: center;
             justify-content: center;
