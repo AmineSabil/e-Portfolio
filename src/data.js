@@ -3,7 +3,7 @@
 export const dataScienceCertifications = [
     {
         id:1,
-        title : "What is Data Science by IBM",
+        title : "What is Data Science ?  by IBM",
         img : "assets/what_is_DS-1.png"
     },
     {
@@ -13,7 +13,7 @@ export const dataScienceCertifications = [
     },
     {
         id:3,
-        title : "DataBases and SQL for DataScience With Python by IBM",
+        title : "DBs and SQL for Data Science by IBM",
         img : "assets/db_sql_ds_python-1.png"
     },
     {
