@@ -68,8 +68,10 @@
   &.active{
       background-color: lightblue;
       color: white;
+      overflow: hidden;
 
       .hamburger{
+        overflow: hidden;
           span{
               &:first-child{
                   background-color: white;
